@@ -12,15 +12,15 @@ import Home from 'app/features/home/containers/HomeContainer';
  * )
  */
 const AppNavigator = createStackNavigator(
-    {
-        Home: {
-            screen: Home,
-            navigationOptions: { header: null }
-        }
-    },
-    {
-        initialRouteName: 'Home'
+  {
+    Home: {
+        screen: Home,
+        navigationOptions: { header: null }
     }
+  },
+  {
+    initialRouteName: 'Home'
+  }
 );
 
 export default createAppContainer(AppNavigator);
