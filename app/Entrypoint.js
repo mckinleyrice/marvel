@@ -1,7 +1,3 @@
-/**
- * App Name
- * Everthing starts from the entrypoint
- */
 import React, { Component } from "react";
 import { ActivityIndicator } from "react-native";
 import { Provider } from "react-redux";
