@@ -1,5 +1,3 @@
-# Marvel
-
 # 🚀 Marvel - March 2020
 
 Marvel is a app to view the list of Marvel characters.
