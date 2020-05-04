@@ -9,9 +9,9 @@ import mockAsyncStorage from '@react-native-community/async-storage/jest/async-s
 jest.mock('@react-native-community/async-storage', () => mockAsyncStorage);
 
 jest.mock('react-native-simple-toast', () => ({
-    SHORT: jest.fn(),
-    show: jest.fn(),
-  }));
+  SHORT: jest.fn(),
+  show: jest.fn(),
+}));
 
 jest.mock('../app/navigation/NavigationHelpers', () => ({
   navigateToHome: jest.fn(),
